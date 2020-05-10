@@ -11,20 +11,18 @@ Requirements
 ---------------
 - NPM ^v6.9.0
 - Node ^v10
+- Gatsby CLI v2.12.15
 
-Load App fixtures
+Development
 ---------------
 ```bash
-$ php bin/console doctrine:migrations:migrate
-$ php bin/console sylius:fixtures:load app_suite
+$ git clone https://github.com/kristijansoldo/personal-website.git
+$ cd personal-website
+$ npm install
+$ gatsby develop
 ```
 
-Troubleshooting
+Special thanks
 ---------------
 
-If something goes wrong, errors & exceptions are logged at the application level:
-
-```bash
-$ tail -f var/log/prod.log
-$ tail -f var/log/dev.log
-```
+Website Design: @vblazenka
