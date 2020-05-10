@@ -18,13 +18,20 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
+
     - name: Install dependencies
       run: npm install
+
     - name: Build web app
       run: npm run build
+
     - name: Set deploy key
       run: mkdir ~/.ssh && echo "${{ secrets.SERVER_SSH_KEY }}" > ~/.ssh/deploy_key && chmod 600 ~/.ssh/deploy_key
+
+    - name: Deploy app
+      run: rsync -e "ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no" --force -azd ./public/ ${{ secrets.SERVER_SSH_USER }}:${{ secrets.SERVER_DESTINATION }}
