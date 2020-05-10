@@ -1,21 +1,21 @@
-Personal website
+🚀 Personal website
 ------------
 Iterations of my personal website: www.kristijansoldo.com
 
 ![Build and Deploy](https://github.com/kristijansoldo/personal-website/workflows/Build%20and%20Deploy/badge.svg)
 
-Built with
+👉 Built with
 ---------------
 - GatsbyJS
 - ReactJS
 
-Requirements
+✔️ Requirements
 ---------------
 - NPM ^v6.9.0
 - Node ^v10
 - Gatsby CLI v2.12.15
 
-Development
+💻 Development
 ---------------
 ```bash
 $ git clone https://github.com/kristijansoldo/personal-website.git
@@ -24,7 +24,7 @@ $ npm install
 $ gatsby develop
 ```
 
-Special thanks
+❤️ Special thanks
 ---------------
 
-Website Design: [@vblazenka]( https://github.com/vblazenka )
+Design: [@vblazenka]( https://github.com/vblazenka )
