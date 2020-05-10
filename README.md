@@ -2,6 +2,8 @@ Personal website
 ------------
 Iterations of my personal website: www.kristijansoldo.com
 
+![Build and Deploy](https://github.com/kristijansoldo/personal-website/workflows/Build%20and%20Deploy/badge.svg)
+
 Built with
 ---------------
 - GatsbyJS
@@ -25,4 +27,4 @@ $ gatsby develop
 Special thanks
 ---------------
 
-Website Design: @vblazenka
+Website Design: [@vblazenka]( https://github.com/vblazenka )
