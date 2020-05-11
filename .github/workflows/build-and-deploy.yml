@@ -34,4 +34,4 @@ jobs:
       run: mkdir ~/.ssh && echo "${{ secrets.SERVER_SSH_KEY }}" > ${{ secrets.LOCAL_DEPLOY_KEY_DESTINATION }} && chmod 600 ${{ secrets.LOCAL_DEPLOY_KEY_DESTINATION }}
 
     - name: Deploy app
-      run: rsync -e "ssh -i ${{ secrets.LOCAL_DEPLOY_KEY_DESTINATION }} -o StrictHostKeyChecking=no" --force -azd ./public/ ${{ secrets.SERVER_SSH_USER }}:${{ secrets.SERVER_DESTINATION }}
+      run: rsync -e "ssh -i ${{ secrets.LOCAL_DEPLOY_KEY_DESTINATION }} -o StrictHostKeyChecking=no" --force -azd ./public/ ${{ secrets.SERVER_SSH_USER }}:${{ secrets.SERVER_DESTINATION }} --delete
