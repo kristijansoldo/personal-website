@@ -1,3 +1,9 @@
+@import "../../styles/variables.scss";
+
 .hero {
-    // TODO
+    .title {
+        span {
+            color: $color-yellow;
+        }
+    }
 }

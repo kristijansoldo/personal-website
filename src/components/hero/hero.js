@@ -1,11 +1,10 @@
 import React from "react"
+import Section from "../../common/section/section";
+
 import styles from "./hero.module.scss"
-import Container from "../../common/container/container";
 
 export default function Hero() {
   return (
-    <section className={styles.hero}>
-      <Container>Hero</Container>
-    </section>
+    <Section className={styles.hero}>Hero</Section>
   )
 }

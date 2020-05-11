@@ -1,3 +1,32 @@
+@import "./variables.scss";
+
+// Global styles
 html {
-    background-color: lavenderblush;
+  background-color: $color-black;
+  font-family: Open Sans;
+  font-style: normal;
+
+  // Paragraph styles
+  p {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    color: $color-second-white;
   }
+
+  // First heading styles
+  h1 {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 77px;
+    color: $color-second-white;
+  }
+
+  // Second heading styles
+  h2 {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 77px;
+    color: $color-yellow;
+  }
+}

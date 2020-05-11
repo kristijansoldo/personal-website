@@ -1,11 +1,10 @@
 import React from "react"
+import Section from "../../common/section/section";
+
 import styles from "./navigation.module.scss"
-import Container from "../../common/container/container";
 
 export default function Navigation() {
   return (
-    <section className={styles.navigation}>
-      <Container>Navigation</Container>
-    </section>
+    <Section className={styles.navigation}>Navigation</Section>
   )
 }
