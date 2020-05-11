@@ -3,6 +3,11 @@ html {
   background-color: $color-black;
   font-family: Open Sans;
   font-style: normal;
+  
+  // Body styles
+  body {
+    margin: 0 0 0 calc(100vw - 100%);
+  }
 
   // Paragraph styles
   p {

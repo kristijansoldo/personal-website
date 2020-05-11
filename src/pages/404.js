@@ -1,11 +1,10 @@
 import React from "react"
-import Hero from "../components/hero/hero";
 import Layout from "../components/layout/layout";
 
-export default function Home() {
+export default function FourZeroFour() {
     return(
         <Layout>
-            <Hero />
+            404
         </Layout>
     );
 }
