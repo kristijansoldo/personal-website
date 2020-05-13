@@ -1,9 +1,23 @@
 // Navigation styles
 .navigation {
-  .logo {
-		display: inline;
-  }
-
-  .links {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+      display: flex;
+      list-style: none;
+      li {
+        a {
+          display: inline-block;
+          margin-left: 50px;
+          text-decoration: none;
+          color: $color-second-white;
+          &:hover {
+            color: $color-white;
+          }
+        }
+      }
+    }
   }
 }

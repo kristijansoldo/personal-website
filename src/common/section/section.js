@@ -1,9 +1,21 @@
+// React import
 import React from "react"
-import Container from "../container/container";
-import ClassNames from "classnames";
 
+// Import components
+import ClassNames from "classnames";
+import Container from "../container/container";
+
+// Import styles
 import styles from "./section.module.scss"
 
+/**
+ * Section layout.
+ *
+ * @param className
+ * @param children
+ * @returns {*}
+ * @constructor
+ */
 export default function Section({ className, children }) {
   return (
     <section className={ClassNames(styles.section, className)}>
