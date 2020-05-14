@@ -1,7 +1,68 @@
+//
+// Hero component styles
+//
 .hero {
-  .title {
-    span {
-      color: $color-yellow;
+  padding: 168px 0;
+
+  .content {
+    display: flex;
+
+    .intro {
+      max-width: 632px;
+      flex-grow: 1;
+
+      .icon {
+        svg {
+          @keyframes hand-animation {
+            from {transform: rotateZ(-16deg);}
+            to {transform: rotateZ(23deg);}
+          }
+
+          transform-origin: bottom right;
+          animation-name: hand-animation;
+          animation-iteration-count: infinite;
+          animation-duration: .5s;
+          animation-direction: alternate;
+          transition: ease-in-out;
+        }
+      }
+
+      h1 {
+        line-height: 77px;
+        margin-top: 18px;
+
+        span {
+          color: $color-yellow;
+        }
+      }
+
+      p {
+        line-height: 34px;
+      }
+    }
+
+    // Main image
+    .image {
+      flex-grow: 1;
+      display: flex;
+      align-items: flex-end;
+
+      .imageWrapper {
+        $imageSize: 430px;
+        overflow: hidden;
+        max-width: $imageSize;
+        max-height: $imageSize;
+        position: relative;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+
+        img {
+          transform: translateX(-26%);
+          position: relative;
+          max-height: $imageSize;
+        }
+      }
     }
   }
 }

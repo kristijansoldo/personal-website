@@ -2,7 +2,7 @@
 import React from "react"
 
 // Import components
-import Section from "../common/container/container";
+import Section from "../common/section/section";
 
 // Import styles
 import styles from "./footer.module.scss"

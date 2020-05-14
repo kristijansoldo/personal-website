@@ -17,7 +17,8 @@
           color: $color-second-white;
           font-size: 16px;
           line-height: 34px;
-          font-weight: 600;
+          font-weight: 400;
+          transition: 200ms ease-in-out;
 
           &:hover {
             color: $color-white;
