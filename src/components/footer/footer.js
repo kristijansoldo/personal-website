@@ -2,7 +2,7 @@
 import React from "react"
 
 // Import components
-import Section from "../../common/section/section";
+import Section from "../common/container/container";
 
 // Import styles
 import styles from "./footer.module.scss"
@@ -14,7 +14,7 @@ import styles from "./footer.module.scss"
  * @constructor
  */
 export default function Footer() {
-  return (
-    <Section className={styles.footer}>Footer</Section>
-  )
+    return (
+        <Section className={styles.footer}>Footer</Section>
+    )
 }

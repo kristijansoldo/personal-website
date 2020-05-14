@@ -16,12 +16,12 @@ import styles from "./section.module.scss"
  * @returns {*}
  * @constructor
  */
-export default function Section({ className, children }) {
-  return (
-    <section className={ClassNames(styles.section, className)}>
-      <Container>
-        {children}
-      </Container>
-    </section>
-  )
+export default function Section({className, children}) {
+    return (
+        <section className={ClassNames(styles.section, className)}>
+            <Container>
+                {children}
+            </Container>
+        </section>
+    )
 }

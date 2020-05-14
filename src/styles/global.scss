@@ -1,9 +1,12 @@
+// Global fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600,700&display=swap');
+
 // Global styles
 html {
   background-color: $color-black;
-  font-family: Open Sans;
+  font-family: Open Sans, sans-serif;
   font-style: normal;
-  
+
   // Body styles
   body {
     margin: 0 0 0 calc(100vw - 100%);
