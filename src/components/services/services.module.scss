@@ -1,0 +1,26 @@
+.services {
+  padding: 52px 0;
+  background-color: $color-services-blue;
+
+  .intro {
+    h2 {
+      margin-top: 0;
+    }
+
+    p {
+      margin-top: 0;
+    }
+  }
+
+  .contentContainer {
+    display: flex;
+
+    .leftBox {
+      flex: 3;
+    }
+
+    .rightBox {
+      flex: 6;
+    }
+  }
+}
