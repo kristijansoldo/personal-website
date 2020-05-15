@@ -5,7 +5,7 @@ import React from "react"
 import Section from "../common/section/section";
 
 // Import assets
-import LogoSvg from "../../../static/logo.svg"
+import LogoSvg from "../../../static/icons/logo.svg"
 
 // Import styles
 import styles from "./navigation.module.scss"

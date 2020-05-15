@@ -5,7 +5,7 @@ import React from "react"
 import Section from "../common/section/section";
 
 // Import assets
-import HandSvg from "../../../static/hand.svg"
+import HandSvg from "../../../static/icons/hand.svg"
 
 // Import styles
 import styles from "./hero.module.scss"
@@ -32,7 +32,7 @@ export default function Hero() {
                 </div>
                 <div className={styles.image}>
                     <div className={styles.imageWrapper}>
-                        <img src={'/avatar.jpg'} alt="Kristijan Soldo Avatar"/>
+                        <img src={'/images/avatar.jpg'} alt="Kristijan Soldo Avatar"/>
                     </div>
                 </div>
             </div>
