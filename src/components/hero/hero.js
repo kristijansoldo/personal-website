@@ -24,7 +24,7 @@ export default function Hero() {
                     <div className={styles.icon}>
                         <HandSvg/>
                     </div>
-                    <h1>Hi, I’m Kristijan, <span>web developer</span> from Croatia!</h1>
+                    <h1>Hi, I’m Kristijan, <br/><span>web developer</span><br/> from Croatia!</h1>
                     <p>For the past six years I’ve been helping companies build fast and scalable backend solutions
                         ranging
                         from applications based on WordPress to big custom solutions built from scratch using Sylius or
