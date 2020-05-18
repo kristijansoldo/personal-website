@@ -20,6 +20,7 @@ module.exports = {
                     include: /static/, // See below to configure properly
                 },
             },
-        }
+        },
+        `gatsby-plugin-react-helmet`,
     ],
 };
