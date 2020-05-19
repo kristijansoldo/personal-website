@@ -1,9 +1,32 @@
 .service {
   display: flex;
-  .icon {
-    flex: 2;
+
+  &:nth-child(2n) {
+    justify-content: flex-end;
   }
-  .content {
-    flex: 6;
+
+  .contentContainer {
+    max-width: 320px;
+    display: flex;
+
+    .icon {
+      flex: 1;
+    }
+
+    .content {
+      flex: 6;
+
+      h3 {
+        margin-top: 0;
+        margin-bottom: 18px;
+      }
+
+      p {
+        color: $color-grey-light;
+        margin-top: 0;
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
   }
 }

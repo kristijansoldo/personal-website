@@ -23,4 +23,20 @@
       flex: 6;
     }
   }
+
+  .summariesContainer {
+    margin-top: 30px;
+  }
+
+  .servicesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .service {
+      flex: 50%;
+      margin-top: 30px;
+    }
+  }
 }

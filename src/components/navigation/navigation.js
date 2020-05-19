@@ -5,7 +5,7 @@ import React from "react"
 import Section from "../common/section/section";
 
 // Import assets
-import LogoSvg from "../../../static/icons/logo.svg"
+import LogoIcon from "../../../static/icons/logo.svg"
 
 // Import styles
 import styles from "./navigation.module.scss"
@@ -20,7 +20,7 @@ export default function Navigation() {
     return (
         <Section className={styles.navigation}>
             <nav>
-                <a href="/"><LogoSvg/></a>
+                <a href="/"><LogoIcon/></a>
                 <ul>
                     <li><a  href="tel:+385997804790">+ 385 99 780 4790</a></li>
                     <li><a  href="mailto:kristijan@soldo.dev">kristijan@soldo.dev</a></li>
