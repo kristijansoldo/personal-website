@@ -1,18 +1,21 @@
 // React import
 import React from "react"
 
+// Import components
+import ClassNames from "classnames";
+
 // Import styles
-import styles from "./summary.module.scss"
+import styles from "./count.module.scss"
 
 /**
- * Summary component.
+ * Count component.
  *
  * @returns {*}
  * @constructor
  */
-export default function Summary({number, title}) {
+export default function Count({number, title, className}) {
     return (
-        <div className={styles.summary}>
+        <div className={ClassNames(styles.count, className)}>
             <div className={styles.number}>
                 <span>{number}</span>
             </div>

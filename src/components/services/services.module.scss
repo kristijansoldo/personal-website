@@ -24,8 +24,14 @@
     }
   }
 
-  .summariesContainer {
+  .countsContainer {
     margin-top: 30px;
+
+    .count {
+      &:first-child {
+        margin-bottom: 88px;
+      }
+    }
   }
 
   .servicesContainer {

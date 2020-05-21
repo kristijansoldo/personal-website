@@ -3,7 +3,7 @@ import React from "react"
 
 // Import components
 import Section from "../common/section/section";
-import Summary from './summary/summary';
+import Count from './count/count';
 import Service from './service/service';
 
 // Import icons
@@ -37,9 +37,9 @@ export default function Services() {
                 </div>
                 <div className={styles.contentContainer}>
                     <div className={styles.leftBox}>
-                        <div className={styles.summariesContainer}>
-                            <Summary number="32" title="Projects"/>
-                            <Summary number="10" title="Happy clients"/>
+                        <div className={styles.countsContainer}>
+                            <Count className={styles.count} number="32" title="Projects"/>
+                            <Count className={styles.count} number="10" title="Happy clients"/>
                         </div>
                     </div>
                     <div className={styles.rightBox}>
