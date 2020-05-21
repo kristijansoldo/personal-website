@@ -16,7 +16,11 @@ import styles from "./techstack.module.scss"
 export default function TechStack() {
     return (
         <Section className={styles.techStack}>
-
+            <div className={styles.intro}>
+                <h2>Tech stack</h2>
+                <p>Experiences are what makes great developer and not just tools and I can select right tool for the
+                    right job.</p>
+            </div>
         </Section>
     )
 }
