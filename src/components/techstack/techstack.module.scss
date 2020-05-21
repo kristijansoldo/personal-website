@@ -16,4 +16,11 @@
       margin: 21px auto 0 auto;
     }
   }
+
+  .techsContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 620px;
+    margin: 70px auto 0 auto;
+  }
 }
