@@ -1,8 +1,9 @@
 .testimonials {
   background-color: $color-yellow;
-  padding-top: 130px;
-  padding-bottom: 120px;
+  padding: 80px 0;
   background-image: url(/images/quote.png);
-
-
+  min-height: 560px;
+  background-repeat: no-repeat;
+  background-size: 520px;
+  background-position: center center;
 }
