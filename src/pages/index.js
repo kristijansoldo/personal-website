@@ -3,6 +3,7 @@ import Hero from "../components/hero/hero";
 import Services from "../components/services/services";
 import Layout from "../components/layout/layout";
 import TechStack from "../components/techstack/techstack";
+import Testimonials from "../components/testimonials/testimonials";
 
 /**
  * Home page.
@@ -16,6 +17,7 @@ export default function Home() {
             <Hero/>
             <Services/>
             <TechStack/>
+            <Testimonials/>
         </Layout>
     );
 }
